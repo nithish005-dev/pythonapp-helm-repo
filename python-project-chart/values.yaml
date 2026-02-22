@@ -7,7 +7,7 @@ replicaCount: 2
 image:
   repository: nithish005/python-flask-app
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: "1.0"
 
 service:
   type: ClusterIP
