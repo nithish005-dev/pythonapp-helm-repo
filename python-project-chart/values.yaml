@@ -5,9 +5,9 @@
 replicaCount: 2
 
 image:
-  repository: nithish005/python-flask-app
+  repository: nithish005.azurecr.io/python-webapp
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: "e7c9e82ee30aabea02fe6be1403fea6b59741c50"
 
 service:
   type: ClusterIP
